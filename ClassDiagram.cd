@@ -1,0 +1,296 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="PrOMCore.Core.Manager">
+    <Position X="16.75" Y="0.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAQAAAAQAIBAAFAAAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>Core\Manager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PrOMCore.DataAccess.SqlCeHelper">
+    <Position X="15.25" Y="11.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AASAAACAAAAAACEABAAAAUAABACAAAAAAAEAAAgAAAg=</HashCode>
+      <FileName>DataAccess\SqlCeHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PrOMCore.Exceptions.PrOMException">
+    <Position X="10.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Exceptions\EasyException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PrOMCore.Exceptions.LoggerException">
+    <Position X="5.5" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Exceptions\LoggerException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PrOMCore.Properties.Resources">
+    <Position X="3.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAgAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PrOMCore.Utils.PrOMTools">
+    <Position X="12.75" Y="10" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAIAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAg=</HashCode>
+      <FileName>Utils\EasyTools.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PrOMCore.Utils.PrOMXMLReader">
+    <Position X="3.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAIAAAAAAAABAAAAAAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>Utils\EasyXMLReader.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PrOMCore.Windows.Controls.PrOMTecladoControl">
+    <Position X="12" Y="2.75" Width="1.75" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAICBACAAEAACgAIB28P/vHwAEAAAACIBw8A8=</HashCode>
+      <FileName>Windows\Controls\EasyTecladoControl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PrOMCore.Windows.Dialogs.PrOMAlert">
+    <Position X="5.5" Y="1.75" Width="1.75" />
+    <NestedTypes>
+      <Enum Name="PrOMCore.Windows.Dialogs.PrOMAlert.PrOMAlertImages" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Windows\Dialogs\EasyAlert.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAACAAAAADACAAAAAACAAAACAgAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Windows\Dialogs\EasyAlert.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PrOMCore.Windows.Dialogs.PrOMDigitPad">
+    <Position X="17.5" Y="6.5" Width="2" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>ABAABAAAACBECQAAAYCAAAkCAMy/AACAAABwApASACA=</HashCode>
+      <FileName>Windows\Dialogs\EasyDigitPad.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PrOMCore.Windows.Dialogs.PrOMInputDir">
+    <Position X="10.25" Y="1.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>KPIIAfM/oihCD4sBPwSEjJt69f//rwoH+P//X+s08A8=</HashCode>
+      <FileName>Windows\Dialogs\EasyInputDir.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PrOMCore.Windows.Dialogs.Nodos">
+    <Position X="14.5" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAEgAAAAAAA=</HashCode>
+      <FileName>Windows\Dialogs\EasyInputDir.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PrOMCore.Windows.Dialogs.PrOMPrompt">
+    <Position X="7.75" Y="3" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>ABAAIAIAAjACBAAAAAGAAAACAAgEAAAAAAggAAAACAA=</HashCode>
+      <FileName>Windows\Dialogs\EasyPrompt.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PrOMCore.Windows.Dialogs.PrOMTeclado">
+    <Position X="17" Y="3.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAACBAAAAAAACAAAACAQAGAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>Windows\Dialogs\EasyTeclado.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PrOMCore.Windows.Forms.PrOMBanner">
+    <Position X="15.25" Y="6.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AUiIAABgAiAAAAQAAACAAAAjAAAAAgAAAAAACEAIAIA=</HashCode>
+      <FileName>Windows\Forms\EasyBanner.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PrOMCore.Windows.Forms.PrOMButton">
+    <Position X="0.5" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>gQiAAAAAACAAAKAAAACAAAACAAAAABEAIAAAAAACAIA=</HashCode>
+      <FileName>Windows\Forms\EasyButton.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PrOMCore.Windows.Forms.PrOMFlowToolbar">
+    <Position X="14.25" Y="2.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAgIABAAACAAQACAAAAAAAIAAIAAIAAAAA=</HashCode>
+      <FileName>Windows\Forms\EasyFlowToolbar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PrOMCore.Windows.Forms.PrOMFlowToolbarButton">
+    <Position X="0.5" Y="5.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAQAA=</HashCode>
+      <FileName>Windows\Forms\EasyFlowToolbar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PrOMCore.Windows.Forms.PrOMToolBarButtonClickEventArgs">
+    <Position X="12" Y="7" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>Windows\Forms\EasyFlowToolbar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PrOMCore.Windows.Forms.PrOMForm">
+    <Position X="12.75" Y="12" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAACAAAACAAAAgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Windows\Forms\EasyForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PrOMCore.Windows.Forms.PrOMTextBox">
+    <Position X="12" Y="4.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABAAACAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Windows\Forms\EasyTextBox.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PrOMCore.Windows.Forms.PrOMToolTip">
+    <Position X="9.75" Y="4.25" Width="2" />
+    <NestedTypes>
+      <Class Name="PrOMCore.Windows.Forms.PrOMToolTip.ControlInfo" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Windows\Forms\EasyTooltip.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Enum Name="PrOMCore.Windows.Forms.PrOMToolTip.stateInfo" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Windows\Forms\EasyTooltip.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Class Name="PrOMCore.Windows.Forms.PrOMToolTip.TooltipMessageWindow" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Windows\Forms\EasyTooltip.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>QAoAgQAAkSoAAAEAACSAAigSQAAAAAAIAAQACAADgIA=</HashCode>
+      <FileName>Windows\Forms\EasyTooltip.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PrOMCore.Windows.Forms.EsayTooltip">
+    <Position X="3.5" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAACAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PrOMCore.Windows.Forms.UtilsForms">
+    <Position X="9.75" Y="11" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAACAAAAACcAADAAAAAggAAACAgAAAAAAA=</HashCode>
+      <FileName>Windows\Forms\UtilsForms.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PrOMCore.Windows.Interop.Native">
+    <Position X="8.25" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAEgJAAAACIAAAAAAAAAABAAAAAAAAAAQAAAA=</HashCode>
+      <FileName>Windows\Interop\Native.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PrOMCore.Wireless.Phone">
+    <Position X="12" Y="0.5" Width="2.25" />
+    <NestedTypes>
+      <Struct Name="PrOMCore.Wireless.Phone.PhoneMakeCallInfo" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Wireless\Phone.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>ABAAgQAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>Wireless\Phone.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PrOMCore.Wireless.Sim">
+    <Position X="5.5" Y="4.75" Width="1.75" />
+    <NestedTypes>
+      <Struct Name="PrOMCore.Wireless.Sim.SimRecord" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Wireless\Phone.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAIEAAAAAAAAAAAAAAIEAIAAAAAAAAAAAQAAAQAAQ=</HashCode>
+      <FileName>Wireless\Phone.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="PrOMCore.Windows.Interop.SYSTEMTIME">
+    <Position X="3.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAAEAAAAAEAAAAQAAAAAABAAAAABM=</HashCode>
+      <FileName>Windows\Interop\Native.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="PrOMCore.Wireless.PhoneAddress">
+    <Position X="5.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAQAAAA=</HashCode>
+      <FileName>Wireless\Phone.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Enum Name="PrOMCore.Windows.Interop.WS">
+    <Position X="7.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAABAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>Windows\Interop\Native.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="PrOMCore.Windows.Interop.GWL">
+    <Position X="3.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Windows\Interop\Native.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="PrOMCore.Windows.Interop.SWP">
+    <Position X="7.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Windows\Interop\Native.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="PrOMCore.Wireless.AddressType">
+    <Position X="5.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAAAAACAAAgAAAABAAAAAAAAABAAAAFA=</HashCode>
+      <FileName>Wireless\Phone.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Delegate Name="PrOMCore.Windows.Forms.UpdateComponent">
+    <Position X="0.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Windows\Forms\EasyBanner.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="PrOMCore.Windows.Forms.PrOMFlowToolbarEventHandler">
+    <Position X="0.5" Y="9.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAABAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Windows\Forms\EasyFlowToolbar.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>
